@@ -20,3 +20,7 @@ capitals = {
     "Germany": "Berlin",
     "Spain": "Madrid"
 }
+def get_capital(country, capitals_dict):
+    return capitals_dict.get(country, "Unknown")
+country = input("Enter a country name: ")
+print(get_capital(country, capitals))

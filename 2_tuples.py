@@ -12,3 +12,9 @@
 
 # Write your code here:
 person = ("Alice", 21)
+name,age=person
+def print_person(name,age):
+    print(name ,"is ",age, "yers old")
+print_person(name,age)
+
+
