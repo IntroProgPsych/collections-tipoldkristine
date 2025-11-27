@@ -12,3 +12,15 @@
 # Call the function three times and observe how the global variable changes.
 # 
 # Write your code here:
+
+counter = 0
+def increase_counter():
+    global counter
+    counter += 2
+    print(counter)
+increase_counter()
+increase_counter()
+increase_counter()
+increase_counter()
+increase_counter()
+increase_counter()
